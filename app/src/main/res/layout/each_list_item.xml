@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/ivApp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/tvTitle"
+        android:layout_toStartOf="@+id/tvTitle" />
+
+    <TextView
+        android:text="tvprice"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvprice"
+        android:layout_above="@+id/tvLink"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="textEnd"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/tvAuthor"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitle"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="textEnd" />
+
+    <TextView
+        android:text="Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivApp"
+        android:id="@+id/tvDescription"
+        android:layout_alignStart="@+id/ivApp"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="tvlink"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvLink"
+        android:layout_above="@+id/tvDescription"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="textEnd"
+        android:textStyle="normal|italic"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:text="tvSumary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDescription"
+        android:id="@+id/tvSumary"
+        android:layout_alignStart="@+id/tvDescription"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="viewStart" />
+</RelativeLayout>

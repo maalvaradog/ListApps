@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_navegacion"
+            android:icon="@drawable/web"
+            android:title="Navegacion" />
+
+        <item
+            android:id="@+id/nav_entreteminiento"
+            android:icon="@drawable/entre"
+            android:title="Entretenimiento" />
+        <item
+            android:id="@+id/nav_juegos"
+            android:icon="@drawable/game"
+            android:title="Juegos" />
+        <item
+            android:id="@+id/nav_musica"
+            android:icon="@drawable/music"
+            android:title="Musica" />
+
+        <item
+            android:id="@+id/nav_foto_y_galeria"
+            android:icon="@drawable/camera"
+            android:title="Foto y Video" />
+
+        <item
+            android:id="@+id/nav_redes_sociales"
+            android:icon="@drawable/reds"
+            android:title="Redes Sociales" />
+
+        <item
+            android:id="@+id/nav_educacion"
+            android:icon="@drawable/education"
+            android:title="Educacion" />
+
+        <item
+            android:id="@+id/nav_viajes"
+            android:icon="@drawable/travel"
+            android:title="Viajes" />
+
+    </group>
+
+    <item android:title="Princial">
+        <menu>
+            <item
+                android:id="@+id/nav_listApps"
+                android:icon="@drawable/icon"
+                android:title="List Apps 20" />
+
+        </menu>
+    </item>
+
+</menu>
